@@ -1,0 +1,24 @@
+
+input#save_button {
+	padding: 3px 15px;
+	margin: auto !important;
+}
+
+.mail-info {
+    border: solid #eaf3fa 1px;
+    margin: 0 !important;
+    width: 270px !important;
+}
+.mail-info .row .header {
+    background: #eaf3fa;
+}
+.mail-info .row .content {
+    padding-left: 30px;
+}
+.row .button {
+	padding-left: 3434px;
+}
+
+body {
+	    width: 270px !important;
+}

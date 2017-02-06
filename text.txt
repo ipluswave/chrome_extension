@@ -1,0 +1,12 @@
+Hi, I need a one off project, although if this goes well there could be quite a bit of work going forward. Our company receives online applications via gmail. You can see based on the attached document how the data arrives. We need an extension that will either search drive or gmail and inform us whether duplicate data has already been supplied. The purpose of this is to spot bank accounts or id that may have been used before. 
+
+So we need an alert in the email, whether a text or image, to advise when it shows already in our gmail inbox. For example if someone applied as follows:
+
+Name: john smith
+Bank account: 123456
+
+Then several months later we get
+Name: Donald Duck
+Bank account: 123456
+
+Then we need an alert of some type that shows this. I've attached an example.
