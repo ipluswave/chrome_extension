@@ -8,25 +8,26 @@
 (function(window, $, undefined){  
 
 
-$('#save_button').on('click', function(event) { 
+    $('#save_button').on('click', function(event) { 
 
 
-    var campaignInfo = {
-        'name' : 'test_name',
-        'surname' : 'test_surname'
+        var campaignInfo = {
+            'name' : 'test_name',
+            'surname' : 'test_surname'
 
-    };
-    var datastring = JSON.stringify(campaignInfo);
+        };
+        var datastring = JSON.stringify(campaignInfo);
 
-    chrome.runtime.sendMessage({
-    method: 'POST',
-    action: 'xhttp',
-    url: 'ajax.php',
+        chrome.runtime.sendMessage({
+            method: 'POST',
+            action: 'xhttp',
+            url: 'ajax.php',
 
-    data: datastring
-}); 
+            data: datastring
+        }); 
 
-    console.log(campaignInfo);
+        console.log(campaignInfo);
 
 
-  }); })(window, jQuery);
+    }); 
+})(window, jQuery);

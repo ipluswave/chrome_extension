@@ -1,24 +1,28 @@
-
+// Save Button StyleSheet
 input#save_button {
 	padding: 3px 15px;
 	margin: auto !important;
 }
 
+//Styles for mail-info
 .mail-info {
-    border: solid #eaf3fa 1px;
-    margin: 0 !important;
-    width: 270px !important;
+	border: solid #eaf3fa 1px;
+	margin: 0 !important;
+	width: 270px !important;
 }
 .mail-info .row .header {
-    background: #eaf3fa;
+	background: #eaf3fa;
 }
 .mail-info .row .content {
-    padding-left: 30px;
+	padding-left: 30px;
 }
+
+// button style
 .row .button {
 	padding-left: 3434px;
 }
 
+// body style
 body {
-	    width: 270px !important;
+	width: 270px !important;
 }
